@@ -28,6 +28,7 @@ The goal:
 ### Screenshot
 
 ![Screenshot of the site on mobile](./screenshot-mobile.png)
+![Screenshot of the site on tablet](./screenshot-tablet.png)
 ![Screenshot of the site on desktop](./screenshot-desktop.png)
 
 ### Links
@@ -47,11 +48,13 @@ The goal:
 
 ### What I learned
 
--- to be updated --
+- Better understanding of grid and flexbox
+- Setting up CSS custom properties
+- media queries
 
 ### Continued development
 
--- to be updated --
+- responsive design
 
 ### Useful resources
 
