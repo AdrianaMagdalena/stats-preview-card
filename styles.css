@@ -139,10 +139,11 @@ mark {
   }
 }
 
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 1101px) {
   .wrapper {
-    max-width: 950px;
+    max-width: 1100px;
     display: grid;
+    gap: 2rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "left right";
   }
@@ -151,17 +152,21 @@ mark {
     grid-area: left;
     text-align: start;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 4rem;
   }
 
   .description h1 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     margin-bottom: 1.5rem;
+  }
+
+  .description p {
+    font-size: 1rem;
   }
 
   .stats-container {
     justify-content: flex-start;
-    gap: 3.5rem;
+    gap: 4rem;
   }
 }
 
